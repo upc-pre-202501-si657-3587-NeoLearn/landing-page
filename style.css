@@ -1,9 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 * {
     padding: 0px;
     margin: 0px;
 }
 
 body {
-    font-family: cursive;
+    font-family: 'Poppins',sans-serif;
     background-color: white;
+}
+
+.btn-m {
+    background-color: none;
+    border: 1px solid black;
+    color: #000;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px 5px;
+    cursor: pointer;
+    border-radius: 12px;
+    padding: 8px 16px;
+}
+
+.btn-m:hover {
+    background-color: black;
+    color: white;
+}
+section {
+    scroll-margin-top: 80px;
+}
+
+
+
+@media screen and (max-width: 800px) {
+    .botones {
+        display: none;
+    }
+
+    .mobile {
+        color: white;
+    }
 }
